@@ -1,37 +1,24 @@
-========================================
-       REMOVE SHORTS EXTENSION
-========================================
+# 🚫 Remove YouTube Shorts (Chrome & Brave Extension)
 
-Description:
-A lightweight, fast, and privacy-friendly Chrome/Brave extension that completely removes YouTube Shorts from your browsing experience. It hides Shorts from the homepage, search results, subscriptions, and sidebars, and forces any direct Shorts links to open in the standard, normal YouTube video player.
+A lightweight, blazing-fast, and privacy-friendly browser extension that completely removes YouTube Shorts from your browsing experience. 
 
-----------------------------------------
-FEATURES:
-----------------------------------------
-* Hides the Shorts shelf from the Homepage, Subscriptions, and Search results.
-* Removes individual Shorts videos mixed into standard video grids.
-* Removes the Shorts button from the left navigation menus.
-* Hides the Shorts tab on YouTube Channel pages.
-* Automatically intercepts direct "/shorts/" URLs and redirects them to the classic YouTube video player.
-* No data collection or background tracking. 
+Stop the doom-scrolling! This extension hides Shorts from the homepage, search results, subscriptions, and sidebars. If you accidentally click a direct Shorts link, it forces the video to open in the **standard, normal YouTube video player**.
 
-----------------------------------------
-FILES INCLUDED:
-----------------------------------------
-1. manifest.json - The configuration file required by Chrome/Brave.
-2. hide.css      - The stylesheet that instantly hides Shorts elements using modern CSS selectors.
-3. content.js    - The script that detects /shorts/ URLs and redirects them to the normal player.
-4. icon.png      - The icon for the browser toolbar and extension menu.
-5. readme.txt    - The file you are reading right now!
+## ✨ Features
 
-----------------------------------------
-HOW TO INSTALL MANUALLY (Unpacked):
-----------------------------------------
-If you are installing this directly from the folder (not the Chrome Web Store), follow these steps:
+- **Nukes the Shorts Shelf:** Completely hides Shorts from the Homepage, Subscriptions, and Search results.
+- **Cleans Video Grids:** Removes individual Shorts videos that are mixed into standard video feeds.
+- **Hides Navigation Buttons:** Removes the "Shorts" button from the left navigation menus.
+- **Cleans Channel Pages:** Hides the "Shorts" tab on YouTube Channel pages.
+- **Smart Redirect:** Automatically intercepts direct `/shorts/` URLs and redirects them to the classic YouTube video player (`/watch?v=`).
+- **Zero Tracking:** No data collection, no background analytics, and no external server requests. 100% private.
 
-1. Open your Chromium-based browser (Google Chrome or Brave).
-2. Type chrome://extensions/ (or brave://extensions/) into the address bar and press Enter.
-3. In the top-right corner of the Extensions page, toggle "Developer mode" to ON.
-4. In the top-left corner, click the "Load unpacked" button.
-5. Select this "Remove Shorts" folder.
-6. Refresh any open YouTube tabs. You're done!
+## 📂 File Structure
+
+```text
+Remove-Shorts/
+ ├── manifest.json   # Extension configuration
+ ├── hide.css        # CSS to hide Shorts UI elements
+ ├── content.js      # JS script for the URL redirect logic
+ ├── icon.png        # Extension icon (128x128)
+ └── README.md       # This documentation file
